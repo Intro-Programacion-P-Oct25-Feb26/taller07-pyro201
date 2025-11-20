@@ -18,9 +18,11 @@ public class Ejecicio04 {
         int contador = 1;
         String fraccion = "";
         String mensaje = "";
+        double solucion = 0; 
         while (contador < 15) {
             num = num * -1;
             contador = (contador + 2);
+            solucion = solucion + (num/contador);
             if (num == 1) {
                 fraccion = String.format("+ %s/%s", num, contador);
             }else{
@@ -29,7 +31,8 @@ public class Ejecicio04 {
 
             mensaje = String.format("%s %s", mensaje, fraccion);
         }
-        System.out.println("1" + mensaje);
+        System.out.printf("1%s= ",mensaje);
+        
     }
 
 }
