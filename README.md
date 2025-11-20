@@ -1,4 +1,4 @@
-# Taller07
+# Taller07 por: Jonathan Gualan, Adrian Guaman
 ## Parte 1
 
 ### Taller 7 (Laboratorio): Construcción de programas usando estructuras de control repetitivas (while)
